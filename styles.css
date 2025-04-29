@@ -7,3 +7,81 @@
     font-family: 'Lobster';
     src: url(fonts/Lobster-Regular.ttf);
 }
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #61646B;
+    margin: 0 auto;
+    color: #FFF;
+}
+.container {
+    width: 1848px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+    background-color: #313235;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: fixed;
+    height: 111px;
+}
+a{
+    font-family: 'Lobster';
+    color: #FFF;
+}
+
+a:hover{
+    color: #8A8D93;
+}
+#logo{
+    margin-right: 455px;
+}
+
+
+nav>a{
+    text-decoration: none;
+}
+
+nav>a.p-l{
+    padding-left: 27px;
+}
+
+#shopping-cart{
+    margin-left:  410px;
+}
+
+.imageBox {
+    position: relative;
+    float: left;
+  }
+
+  .imageBox .hoverImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+  }
+
+  .imageBox:hover .hoverImg {
+    display: block;
+  }
+
+  .imageBox:hover .hoverImg {
+      display: block;
+  }
+
+#cover{
+    height: 900px;
+    display: flex;
+    align-items: center;
+    background-image: url(images/main-images/cover-img.png);
+    background-size: 800px;
+    background-position-y: 70px;
+    background-position-x: 1250px;
+    background-repeat: no-repeat;
+  }
