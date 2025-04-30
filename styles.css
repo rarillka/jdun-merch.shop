@@ -21,6 +21,7 @@ body{
     width: 1720px;
 }
 header{
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -107,6 +108,12 @@ nav>a.p-l{
     font-weight: 200;
   }
 
+  h4{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+  }
+
 .block-desc{
     font-family: 'Impact';
     font-size: 64px;
@@ -163,6 +170,8 @@ button:hover{
 #bestsellers{
     margin-left: 164px;
     margin-right: 164px;
+    margin-bottom: 100px;
+    margin: 0 164px 100px  164px;
 }
 #bestsellers-images{
     background-color: #FFF;
@@ -180,10 +189,15 @@ button:hover{
     width: fit-content;
     overflow: hidden;
 }
+.bestsellers-imgs-with-hover:hover{
+    transform: scale(1.02);
+    transition: 0.4s;
+}
 .bstslr-overlay:hover{
     opacity: 1;
-    backdrop-filter: brightness(0.3);
-    transition: 0.2s;
+    backdrop-filter: brightness(0.55);
+    transition: 0.4s;
+    transform: scale(1.02);
 }
 
 .bestsellers-image{
@@ -206,4 +220,39 @@ button:hover{
     font-size: 32px;
     margin-left: 109px; 
     margin-top: 550px;
+}
+
+
+#about-us{
+    padding-top: 111px;  
+    font-weight: 500;
+}
+#about-us img{
+    float: inline-end;
+    position: relative;
+    left: 164px;
+    /*padding-left: 164px;*/
+}
+
+.about-us-content{
+    padding-left: 164px;
+    background-color: #383A3E;
+}
+#about-us-text{
+    padding: 20px 0 0 0;
+}
+#about-us-text p{
+    font-size: 40px;
+    margin: 10px 0 0 0;
+    font-weight: 500;
+}
+
+#lover-about-us-text {
+    text-align: right;
+    padding: 70px 0 42px 0;
+}
+#lover-about-us-text p{
+    font-size: 32px;
+    padding-top: 10px;
+    line-height: 50px;
 }
