@@ -170,7 +170,7 @@ button:hover{
 #bestsellers{
     margin-left: 164px;
     margin-right: 164px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     margin: 0 164px 100px  164px;
 }
 #bestsellers-images{
@@ -225,7 +225,8 @@ button:hover{
 
 #about-us{
     padding-top: 111px;  
-    font-weight: 500;
+    font-weight: 500    ;
+    margin-bottom: 200px;
 }
 #about-us img{
     float: inline-end;
@@ -253,6 +254,33 @@ button:hover{
 }
 #lover-about-us-text p{
     font-size: 32px;
-    padding-top: 6.342px;
+    padding-top: 10px;
     line-height: 50px;
+}
+#delivery-and-payment{
+    padding-top: 111px; 
+    margin-bottom: 200px;
+}
+
+.delivery-and-payment-content img{
+    padding-top: 40px;
+}
+.delivery-and-payment-content{
+    display: flex;
+    padding-left: 164px;
+    background-color: #383A3E;
+    padding-top: 50px;
+}
+
+.delivery-and-payment-content h5, li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+#delivery-text p{
+    font-family: 'Lobster';
+    font-size: 32px;
+    margin: 0;
 }
