@@ -33,6 +33,7 @@ header{
 }
 a{
     color: #FFF;
+    transition: color 0.2s;
 }
 
 a:hover{
@@ -57,23 +58,19 @@ nav>a.p-l{
 
 .imageBox {
     position: relative;
-    float: left;
   }
 
-  .imageBox .hoverImg {
+  .imageBox .imageInn {
     position: absolute;
     left: 0;
     top: 0;
-    display: none;
+    transition: 0.2s;
+  }
+  .imageBox:hover .imageInn {
+    opacity: 0;
   }
 
-  .imageBox:hover .hoverImg {
-    display: block;
-  }
 
-  .imageBox:hover .hoverImg {
-      display: block;
-  }
 
 #cover{
     height: 900px;
@@ -82,7 +79,7 @@ nav>a.p-l{
     background-image: url(images/main-images/cover-img.png);
     background-size: 800px;
     background-position-y: 70px;
-    background-position-x: 1250px;
+    background-position-x: 1275px;
     background-repeat: no-repeat;
     padding-left: 164px;
     margin-bottom: 200px;
@@ -93,12 +90,21 @@ nav>a.p-l{
     font-size: 128px;
     text-shadow:0px 4px 4px rgba(0, 0, 0, 0.5);
     margin: 250px 0 0 0;
+    font-weight: 200;
   }
+
   h2{
+    font-family: 'Impact';
+    font-size: 96px;
+    margin: 0;
+    font-weight: 200;
+  }
+  h3{
     font-family: 'Impact';
     font-size: 128px;
     text-shadow:0px 4px 4px rgba(0, 0, 0, 0.5);
     margin: 0;
+    font-weight: 200;
   }
 
 .block-desc{
@@ -106,6 +112,7 @@ nav>a.p-l{
     font-size: 64px;
     text-shadow:0px 5px 4px rgba(0, 0, 0, 0.5);
     margin: 20px 0 46px 0;
+    font-weight: 200;
 }
 
 
@@ -120,6 +127,7 @@ button{
     border: 2px solid #265974;
     font-family: 'Lobster';
     font-size: 64px;
+    transition: 0.2s;
 }
 
 button:hover{
@@ -149,3 +157,42 @@ button:hover{
     height: 92px;
     font-size: 48px;
 }
+#bestsellers{
+    margin-left: 164px;
+    margin-right: 164px;
+}
+#bestsellers-images{
+    background-color: #FFF;
+    display: flex;
+    margin-top: 20px;
+}
+
+.img-p-l{
+    padding-left: 75px;
+}
+
+
+.idk img:hover{
+    filter: brightness(0.3);
+    transition: filter 0.2s;
+}
+
+.idk{
+    position: relative;
+}
+
+.idk img{
+    display:block;
+    
+}
+
+.idk button {
+    position: absolute;
+    top: 80%;
+    opacity:0;
+}
+
+.idk:hover button {   
+    opacity: 1;
+  }
+
