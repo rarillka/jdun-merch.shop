@@ -122,7 +122,6 @@ button{
     background-color: #3B7696;
     color: white;
     border-radius: 8px 8px;
-    font-size: 24px;
     padding: 0;
     border: 2px solid #265974;
     font-family: 'Lobster';
@@ -145,8 +144,12 @@ button:hover{
     background-repeat: no-repeat;
     background-size: 100%;
     padding-right: 164px;
-    padding-top: 455px;
+    margin-bottom: 250px;
   }
+
+#movie-content{
+    padding-top: 370px;
+}
 
 #movie-desc{
     font-size: 48px;
@@ -172,27 +175,35 @@ button:hover{
 }
 
 
-.idk img:hover{
-    filter: brightness(0.3);
-    transition: filter 0.2s;
-}
-
-.idk{
+.bestsellers-imgs-with-hover{
     position: relative;
+    width: fit-content;
+    overflow: hidden;
 }
-
-.idk img{
-    display:block;
-    
-}
-
-.idk button {
-    position: absolute;
-    top: 80%;
-    opacity:0;
-}
-
-.idk:hover button {   
+.bstslr-overlay:hover{
     opacity: 1;
-  }
+    backdrop-filter: brightness(0.3);
+    transition: 0.2s;
+}
 
+.bestsellers-image{
+    display:block;
+}
+
+.bstslr-overlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 528px;
+    height: 679px;
+    opacity: 0;
+}
+.bstslr-btn{
+    position: absolute;
+    width: 325px;
+    height: 56px;
+    border-radius: 8px 8px;
+    font-size: 32px;
+    margin-left: 109px; 
+    margin-top: 550px;
+}
