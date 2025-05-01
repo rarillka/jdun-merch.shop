@@ -29,6 +29,7 @@ header{
     background-color: #313235;
     padding-left: 164px;
     padding-right: 164px;
+    margin: 0 auto;
     position: fixed;
     height: 111px;
 }
@@ -45,11 +46,11 @@ a:hover{
 }
 
 
-nav>a{
+.general-navigation>a{
     text-decoration: none;
 }
 
-nav>a.p-l{
+.general-navigation>a.p-l{
     padding-left: 27px;
 }
 
@@ -168,8 +169,8 @@ button:hover{
     font-size: 48px;
 }
 #bestsellers{
-    margin-left: 164px;
-    margin-right: 164px;
+    margin-left: auto; 
+    margin-right: auto;
     margin-bottom: 200px;
     margin: 0 164px 100px  164px;
 }
@@ -227,6 +228,8 @@ button:hover{
     padding-top: 111px;  
     font-weight: 500    ;
     margin-bottom: 200px;
+    margin-left: auto; 
+    margin-right: auto;
 }
 #about-us img{
     float: inline-end;
@@ -270,6 +273,8 @@ button:hover{
     padding-left: 164px;
     background-color: #383A3E;
     padding-top: 50px;
+    margin-left: auto; 
+    margin-right: auto;
 }
 
 .delivery-and-payment-content h5, li{
@@ -283,4 +288,59 @@ button:hover{
     font-family: 'Lobster';
     font-size: 32px;
     margin: 0;
+}
+
+
+#contacts ul{
+    list-style-type: none;
+}
+
+#social-media-icons{
+    float: left;
+}
+
+#maps-icons{
+    float: right;
+}
+
+#contacts{
+    padding-top: 111px; 
+    margin-bottom: 200px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.contacts-content{
+    display: flex;
+    background-color: #383A3E;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+
+footer{
+    height: 436px;
+    font-size: 36px;
+    display: flex;
+    background-color: #383A3E;
+    align-items: center;
+}
+
+.footer-content{
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.footer-content li{
+    display: inline;
+}
+.footer-content li img{
+    height: 75px;
+}
+
+#footer-imgs{
+    display: flex;
+}
+
+#footer-logo{
+    height: 128px;
 }
