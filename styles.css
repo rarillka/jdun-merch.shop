@@ -20,6 +20,22 @@ body{
 .container {
     width: 1720px;
 }
+
+
+#log-in-form{
+    position: relative;
+}
+.forms-container{
+    border-radius: 15px 15px;
+    margin: auto;
+    width: 455px;
+    height: 751px;
+    background-color: #383A3E;
+    margin-top: 5.6%;
+    padding: 0 197.5px;
+    
+    
+}
 header{
     z-index: 1;
     display: flex;
@@ -267,15 +283,22 @@ button:hover{
 
 .delivery-and-payment-content img{
     padding-top: 40px;
+    width: 603px;
+    height: 509px;
+    margin:  0 73px;
+}
+#payment-text{
+    float: right;
 }
 .delivery-and-payment-content{
     display: flex;
     padding-left: 164px;
     background-color: #383A3E;
     padding-top: 50px;
-    margin-left: auto; 
-    margin-right: auto;
+    margin: 0 auto;
+    padding-bottom: 50px; 
 }
+
 
 .delivery-and-payment-content h5, li{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -283,13 +306,25 @@ button:hover{
     font-weight: lighter;
     margin: 0;
 }
+.p-b{
+    padding-bottom: 35px;
+}
+#d-p-desc{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    font-weight: lighter;
+    color: rgba(222, 222, 222, 1);
+}
 
-#delivery-text p{
+#delivery-text li p{
     font-family: 'Lobster';
     font-size: 32px;
     margin: 0;
 }
-
+ul{
+    margin: 0;
+}
 
 #contacts ul{
     list-style-type: none;
@@ -343,4 +378,68 @@ footer{
 
 #footer-logo{
     height: 128px;
+}
+
+.log-in-form-content h6{
+    font-size: 40px;
+    text-shadow:0px 4px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    margin: 0;
+}
+
+
+.log-in-form-content button{
+    width: 325px;
+    height: 56px;
+    font-size: 32px;
+}
+
+#login-desc p{
+    margin: 0;
+}
+
+#login-desc{
+    display: flex;
+}
+
+.n-l{
+    text-decoration: none;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+}
+
+input{
+    height: 51px;
+    padding-left: 20px;
+    margin-bottom: 14px;
+    font-family: "Impact";
+    font-weight: 100;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.42);
+    border: 1px solid #000000;
+    border-radius: 2px 2px;
+}
+input:focus{
+
+    outline: none;
+    border: 2px solid #000000;
+    color: rgba(255, 255, 255, 0.71);
+}
+
+input:active{  
+    outline: none;
+    border: 2px solid #000000;
+    color: rgba(255, 255, 255, 0.71);
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.71);
+}
+input:not([value='']), textarea:not([value='']){
+    color: rgba(255, 255, 255);
 }
