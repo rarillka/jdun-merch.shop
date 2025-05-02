@@ -333,9 +333,35 @@ ul{
 #social-media-icons{
     float: left;
 }
+.social-media-icon{
+    padding-bottom: 30px;
+}
+#contacts-links{
+    margin-top: 20px;
 
+}
+#contacts-links a{
+    padding-left: 40px;
+}
+
+.p-t{
+    padding-top: 25px;
+}
+#contacts-links li{
+    padding-bottom: 50px;
+}
 #maps-icons{
     float: right;
+}
+#maps{
+    padding-left: 250px;
+}
+.maps-icon{
+    padding-bottom: 30px;
+}
+#maps-links li{
+    padding-bottom: 70px;
+    text-align: end;
 }
 
 #contacts{
@@ -349,6 +375,32 @@ ul{
     background-color: #383A3E;
     margin-left: auto; 
     margin-right: auto;
+    padding-top: 55px;
+    padding-bottom: 100px;
+}
+#socials{
+    padding-left: 100px;
+}
+#socials ul{
+    padding-top: 40px;
+}
+#maps ul{
+    padding-top: 40px;
+}
+
+#our-adress{
+    position: absolute;
+    padding-top: 140px;
+    margin-left: -90px;
+    left: 830px;
+
+}
+#our-adress p{
+    font-size: 32px;
+    padding-left: -90px;
+    position: relative;
+    bottom: 20px;
+    right: 170px;
 }
 
 
@@ -356,7 +408,7 @@ footer{
     height: 436px;
     font-size: 36px;
     display: flex;
-    background-color: #383A3E;
+    background-color: #313235;
     align-items: center;
 }
 
@@ -374,10 +426,21 @@ footer{
 
 #footer-imgs{
     display: flex;
+    padding-top: 70px;
 }
-
+.p-l-1{
+    padding-left: 30px;
+}
+.p-r{
+    padding-right: 30px;
+}
 #footer-logo{
     height: 128px;
+    padding-left: 50px;
+}
+.p-b p{
+    text-align: end;
+    padding-right: 50px;
 }
 
 .log-in-form-content h6{
@@ -429,12 +492,14 @@ input:focus{
     outline: none;
     border: 2px solid #000000;
     color: rgba(255, 255, 255, 0.71);
+    border-radius: 3px 3px;
 }
 
 input:active{  
     outline: none;
     border: 2px solid #000000;
     color: rgba(255, 255, 255, 0.71);
+    border-radius: 3px 3px;
 }
 
 ::placeholder{
