@@ -23,7 +23,10 @@ body{
 
 
 #log-in-form{
-    position: relative;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
 .forms-container{
     border-radius: 15px 15px;
@@ -31,10 +34,7 @@ body{
     width: 455px;
     height: 751px;
     background-color: #383A3E;
-    margin-top: 5.6%;
     padding: 0 197.5px;
-    
-    
 }
 header{
     z-index: 1;
@@ -287,16 +287,21 @@ button:hover{
     height: 509px;
     margin:  0 73px;
 }
+
+.container-1{
+    background-color: #383A3E;
+}
 #payment-text{
     float: right;
 }
 .delivery-and-payment-content{
     display: flex;
+    padding-right: 164px;
     padding-left: 164px;
-    background-color: #383A3E;
     padding-top: 50px;
     margin: 0 auto;
     padding-bottom: 50px; 
+    width: 1543px;
 }
 
 
@@ -390,14 +395,13 @@ ul{
 
 #our-adress{
     position: absolute;
-    padding-top: 140px;
-    margin-left: -90px;
-    left: 830px;
-
+    transform: translate(-50%);
+    left: 60%;
+    padding-top: 150px;
 }
 #our-adress p{
     font-size: 32px;
-    padding-left: -90px;
+    padding-left: -100px;
     position: relative;
     bottom: 20px;
     right: 170px;
@@ -413,8 +417,9 @@ footer{
 }
 
 .footer-content{
-    margin-left: auto; 
-    margin-right: auto;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
 }
 
 .footer-content li{
@@ -507,4 +512,10 @@ input:active{
 }
 input:not([value='']), textarea:not([value='']){
     color: rgba(255, 255, 255);
+}
+
+#log-in-inner{
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
 }
