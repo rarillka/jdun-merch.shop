@@ -19,7 +19,10 @@
                         <input type="text" class="m-b"placeholder="Логин">
                         <input type="password" class="m-b-1"placeholder="Пароль" id="passwordinput">  
                     </form>
-                    <input type="checkbox" onclick="showPassword()"> 
+                    <div class="toggle-password">
+                        <input type="checkbox" id="toggle-password-text"onclick="showPassword()">
+                        <label for="toggle-password-text">Показать пароль</label>
+                    </div>
                     <div id="login-desc">
                         <p><span id="lighter-login-desc">Нет аккаунта? </span><a href="registry.html">Регистрация</a></p>
                         <a href="" class="n-l">Восстановить пароль</a>

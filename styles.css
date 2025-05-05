@@ -681,6 +681,36 @@ input:not([value='']), textarea:not([value='']){
 }*/
 
  
+.form_radio_btn_socks{
+	display: inline-block;
+	margin-right: 10px;
+    background: #212224;
+    font-size: 32px;
+    border-radius: 2px;
+    border: 1px solid #ffffff;
+}
+.form_radio_btn_socks input[type=radio] {
+	display: none;
+}
+.form_radio_btn_socks label {
+	display: inline-block;
+	cursor: pointer;
+    width: 100px;
+    height: 50px;
+	user-select: none;
+}
+.form_radio_btn_socks p{
+    position: relative;
+    margin: 0;
+    top: 7px;
+    text-align: center;
+}
+.form_radio_btn_socks input[type=radio]:checked + label {
+	background: #ffffff;
+    color: #000000;
+    transition: 0.4s;
+}
+ 
 
 .product-card{
     width: 455px;
@@ -691,7 +721,14 @@ input:not([value='']), textarea:not([value='']){
     height: 461px;
     filter: drop-shadow(4px 4px 10px rgba(255, 255, 255, 0.41));
 }
-
+.to-the-right{
+    position: relative; 
+    left: 17%;
+}
+.to-the-right-1{
+    position: relative; 
+    left: 8%;
+}
 .card-info{
     background-color: #383A3E;
     height: 218px;
@@ -746,10 +783,66 @@ input:not([value='']), textarea:not([value='']){
 
 
 .products-section{
-    margin-bottom: 120px;
+    padding-top: 110px;
+    margin-bottom: 30px;
 }
 
 .onesize{
     font-size: 32px;
     margin: 5px 0 35px 0;
+}
+#all-products{
+    margin-bottom: 200px;
+}
+
+
+
+.toggle-password{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.toggle-password input{
+    height: 20px;
+}
+.toggle-password label{
+    position: relative;
+    left: 10px;
+    top: 3px;
+    height: 20px;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+input:checked[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    
+    /* базовые стили для кастомного оформления */
+}
+#toggle-password-text{
+    background-color:#ffffff;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #000000;
+}
+#toggle-password-text:checked{
+    background-color: #000000;
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #ffffff;
+    width: 5px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+
+#reg-toggle{
+    position: relative;
+    top: 20px;
+    margin-bottom: 30px;
 }

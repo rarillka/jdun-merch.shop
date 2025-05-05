@@ -1,157 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="images/bottom-logo.png">
-    <title>Каталог</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="images/bottom-logo.png">
+  <title>Каталог</title>
 </head>
+
 <body>
-      <header class="container">
-        <img id="logo" src="images/top-logo.png" alt="логотип">
-        <nav class="general-navigation">
-            <a href="index.html#cover" class="">Главная</a>
-            <a href="index.html#about-us" class="p-l">О нас</a>
-            <a href="index.html#delivery-and-payment" class="p-l">Доставка</a>
-            <a href="index.html#contacts" class="p-l">Контакты</a>
-            <a href="catalog.html" class="p-l">Каталог</a>
-        </nav>
-        <a href="">
-            <div id="shopping-cart"  class="imageBox">
-                <div class="imageInn">
-                  <img src="images/shopping-cart-icon.svg"  alt="корзина">
-                </div>
-                <div class="hoverImg">
-                  <img src="images/shopping-cart-icon-hover.svg" alt="корзина">
-                </div>
-              </div></a>
-        <a href="logIn.html"> <div id="profile-pic" class="imageBox">
-            <div class="imageInn">
-              <img src="images/profile-icon.svg"  alt="профиль">
-            </div>
-            <div class="hoverImg">
-              <img src="images/profile-icon-hover.svg" alt="профиль">
-            </div>
-          </div></a>
-    </header>
+  <header class="container">
+    <img id="logo" src="images/top-logo.png" alt="логотип">
+    <nav class="general-navigation">
+      <a href="index.html#cover" class="">Главная</a>
+      <a href="index.html#about-us" class="p-l">О нас</a>
+      <a href="index.html#delivery-and-payment" class="p-l">Доставка</a>
+      <a href="index.html#contacts" class="p-l">Контакты</a>
+      <a href="catalog.html#catalog-top" class="p-l">Каталог</a>
+    </nav>
+    <a href="">
+      <div id="shopping-cart" class="imageBox">
+        <div class="imageInn">
+          <img src="images/shopping-cart-icon.svg" alt="корзина">
+        </div>
+        <div class="hoverImg">
+          <img src="images/shopping-cart-icon-hover.svg" alt="корзина">
+        </div>
+      </div>
+    </a>
+    <a href="logIn.html">
+      <div id="profile-pic" class="imageBox">
+        <div class="imageInn">
+          <img src="images/profile-icon.svg" alt="профиль">
+        </div>
+        <div class="hoverImg">
+          <img src="images/profile-icon-hover.svg" alt="профиль">
+        </div>
+      </div>
+    </a>
+  </header>
   <main>
     <section id="catalog-top">
       <div id="catalog-cover" class="container">
         <h1>Каталог</h1>
         <nav id="catalog-nav">
-          <a href="">Футболки</a>
+          <a href="#t-shirts">Футболки</a>
           <p>&nbsp;/&nbsp;</p>
-          <a href="">Худи</a>
+          <a href="#hoodies">Худи</a>
           <p>&nbsp;/&nbsp;</p>
-          <a href="">Головные уборы</a>
+          <a href="#hats">Головные уборы</a>
           <p>&nbsp;/&nbsp;</p>
-          <a href="">Сумки и рюкзаки</a>
+          <a href="#bags">Сумки и рюкзаки</a>
           <p>&nbsp;/&nbsp;</p>
-          <a href="">Носки</a>
+          <a href="#socks">Носки</a>
           <p>&nbsp;/&nbsp;</p>
-          <a href="">Лимитированное</a>
+          <a href="#limited">Лимитированное</a>
         </nav>
       </div>
     </section>
     <section id="all-products" class="catalog-cards-container">
       <div id="t-shirts" class="products-section">
-          <h2 class="catalog-h2">Футболки</h2>
-          <div class="product-cards">
-            <div class="product-card">
-              <img src="images/catalog/tshirt white.png" alt="">
-              <div class="card-info">
-                <div class="name-and-price">
-                  <p>Футболка Ждун white</p>
-                  <p class="price">1 999 Р</p>
-                </div>
-                <div class="sizes">
-                  <div class="form_radio_btn">
-                    <input id="radio-1" type="radio" name="radio" value="1">
-                    <label for="radio-1"><p>S</p></label>
-                  </div>
-            
-                  <div class="form_radio_btn">
-                    <input id="radio-2" type="radio" name="radio" value="2">
-                    <label for="radio-2"><p>M</p></label>
-                  </div>
-            
-                  <div class="form_radio_btn">
-                    <input id="radio-3" type="radio" name="radio" value="3">
-                    <label for="radio-3"><p>L</p></label>
-                  </div>
-            
-                  <div class="form_radio_btn">
-                    <input id="radio-4" type="radio" name="radio" value="4">
-                    <label for="radio-4"><p>XL</p></label>
-                  </div>
-                </div>
-                <button>В корзину</button>
+        <h2 class="catalog-h2">Футболки</h2>
+        <div class="product-cards">
+          <div class="product-card">
+            <img src="images/catalog/tshirt white.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Футболка Ждун white</p>
+                <p class="price">1 999 Р</p>
               </div>
-            </div>
-            <div class="product-card">
-              <img src="images/catalog/tshirt kurakaka.png" alt="">
-              <div class="card-info">
-                <div class="name-and-price">
-                  <p>Футболка Куракака</p>
-                  <p class="price">1 999 Р</p>
+              <div class="sizes">
+                <div class="form_radio_btn">
+                  <input id="radio-1" type="radio" name="radio" value="S">
+                  <label for="radio-1">
+                    <p>S</p>
+                  </label>
                 </div>
-                <div class="sizes">
-                  <div class="form_radio_btn">
-                    <input id="radio-5" type="radio" name="radio" value="5">
-                    <label for="radio-5"><p>S</p></label>
-                  </div>
-            
-                  <div class="form_radio_btn">
-                    <input id="radio-6" type="radio" name="radio" value="6">
-                    <label for="radio-6"><p>M</p></label>
-                  </div>
-            
-                  <div class="form_radio_btn">
-                    <input id="radio-7" type="radio" name="radio" value="7">
-                    <label for="radio-7"><p>L</p></label>
-                  </div>
-            
-                  <div class="form_radio_btn">
-                    <input id="radio-8" type="radio" name="radio" value="8">
-                    <label for="radio-8"><p>XL</p></label>
-                  </div>
+
+                <div class="form_radio_btn">
+                  <input id="radio-2" type="radio" name="radio" value="M">
+                  <label for="radio-2">
+                    <p>M</p>
+                  </label>
                 </div>
-                <button>В корзину</button>
+
+                <div class="form_radio_btn">
+                  <input id="radio-3" type="radio" name="radio" value="L">
+                  <label for="radio-3">
+                    <p>L</p>
+                  </label>
+                </div>
+
+                <div class="form_radio_btn">
+                  <input id="radio-4" type="radio" name="radio" value="XL">
+                  <label for="radio-4">
+                    <p>XL</p>
+                  </label>
+                </div>
               </div>
-            </div>
-            <div class="product-card">
-              <img src="images/catalog/tshirt black.png" alt="">
-              <div class="card-info">
-                <div class="name-and-price">
-                  <p>Футболка Ждун black</p>
-                  <p class="price">1 999 Р</p>
-                </div>
-                <div class="sizes">
-                  <div class="form_radio_btn">
-                    <input id="radio-9" type="radio" name="radio" value="9">
-                    <label for="radio-9"><p>S</p></label>
-                  </div>
-            
-                  <div class="form_radio_btn">
-                    <input id="radio-10" type="radio" name="radio" value="10">
-                    <label for="radio-10"><p>M</p></label>
-                  </div>
-            
-                  <div class="form_radio_btn">
-                    <input id="radio-11" type="radio" name="radio" value="11">
-                    <label for="radio-11"><p>L</p></label>
-                  </div>
-            
-                  <div class="form_radio_btn">
-                    <input id="radio-12" type="radio" name="radio" value="12">
-                    <label for="radio-12"><p>XL</p></label>
-                  </div>
-                </div>
-                <button>В корзину</button>
-              </div>
+              <button>В корзину</button>
             </div>
           </div>
+          <div class="product-card">
+            <img src="images/catalog/tshirt kurakaka.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Футболка Куракака</p>
+                <p class="price">1 999 Р</p>
+              </div>
+              <div class="sizes">
+                <div class="form_radio_btn">
+                  <input id="radio-5" type="radio" name="radio" value="S">
+                  <label for="radio-5">
+                    <p>S</p>
+                  </label>
+                </div>
+
+                <div class="form_radio_btn">
+                  <input id="radio-6" type="radio" name="radio" value="M">
+                  <label for="radio-6">
+                    <p>M</p>
+                  </label>
+                </div>
+
+                <div class="form_radio_btn">
+                  <input id="radio-7" type="radio" name="radio" value="L">
+                  <label for="radio-7">
+                    <p>L</p>
+                  </label>
+                </div>
+
+                <div class="form_radio_btn">
+                  <input id="radio-8" type="radio" name="radio" value="XL">
+                  <label for="radio-8">
+                    <p>XL</p>
+                  </label>
+                </div>
+              </div>
+              <button>В корзину</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="images/catalog/tshirt black.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Футболка Ждун black</p>
+                <p class="price">1 999 Р</p>
+              </div>
+              <div class="sizes">
+                <div class="form_radio_btn">
+                  <input id="radio-9" type="radio" name="radio" value="S">
+                  <label for="radio-9">
+                    <p>S</p>
+                  </label>
+                </div>
+
+                <div class="form_radio_btn">
+                  <input id="radio-10" type="radio" name="radio" value="M">
+                  <label for="radio-10">
+                    <p>M</p>
+                  </label>
+                </div>
+
+                <div class="form_radio_btn">
+                  <input id="radio-11" type="radio" name="radio" value="L">
+                  <label for="radio-11">
+                    <p>L</p>
+                  </label>
+                </div>
+
+                <div class="form_radio_btn">
+                  <input id="radio-12" type="radio" name="radio" value="XL">
+                  <label for="radio-12">
+                    <p>XL</p>
+                  </label>
+                </div>
+              </div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div id="hoodies" class="products-section">
@@ -166,23 +195,31 @@
               </div>
               <div class="sizes">
                 <div class="form_radio_btn">
-                  <input id="radio-1-1" type="radio" name="radio" value="1">
-                  <label for="radio-1-1"><p>S</p></label>
+                  <input id="radio-1-1" type="radio" name="radio" value="S">
+                  <label for="radio-1-1">
+                    <p>S</p>
+                  </label>
                 </div>
-          
+
                 <div class="form_radio_btn">
-                  <input id="radio-2-1" type="radio" name="radio" value="2">
-                  <label for="radio-2-1"><p>M</p></label>
+                  <input id="radio-2-1" type="radio" name="radio" value="M">
+                  <label for="radio-2-1">
+                    <p>M</p>
+                  </label>
                 </div>
-          
+
                 <div class="form_radio_btn">
-                  <input id="radio-3-1" type="radio" name="radio" value="3">
-                  <label for="radio-3-1"><p>L</p></label>
+                  <input id="radio-3-1" type="radio" name="radio" value="L">
+                  <label for="radio-3-1">
+                    <p>L</p>
+                  </label>
                 </div>
-          
+
                 <div class="form_radio_btn">
-                  <input id="radio-4-1" type="radio" name="radio" value="4">
-                  <label for="radio-4-1"><p>XL</p></label>
+                  <input id="radio-4-1" type="radio" name="radio" value="XL">
+                  <label for="radio-4-1">
+                    <p>XL</p>
+                  </label>
                 </div>
               </div>
               <button>В корзину</button>
@@ -197,23 +234,31 @@
               </div>
               <div class="sizes">
                 <div class="form_radio_btn">
-                  <input id="radio-5-1" type="radio" name="radio" value="5">
-                  <label for="radio-5-1"><p>S</p></label>
+                  <input id="radio-5-1" type="radio" name="radio" value="S">
+                  <label for="radio-5-1">
+                    <p>S</p>
+                  </label>
                 </div>
-          
+
                 <div class="form_radio_btn">
-                  <input id="radio-6-1" type="radio" name="radio" value="6">
-                  <label for="radio-6-1"><p>M</p></label>
+                  <input id="radio-6-1" type="radio" name="radio" value="M">
+                  <label for="radio-6-1">
+                    <p>M</p>
+                  </label>
                 </div>
-          
+
                 <div class="form_radio_btn">
-                  <input id="radio-7-1" type="radio" name="radio" value="7">
-                  <label for="radio-7-1"><p>L</p></label>
+                  <input id="radio-7-1" type="radio" name="radio" value="L">
+                  <label for="radio-7-1">
+                    <p>L</p>
+                  </label>
                 </div>
-          
+
                 <div class="form_radio_btn">
-                  <input id="radio-8-1" type="radio" name="radio" value="8">
-                  <label for="radio-8-1"><p>XL</p></label>
+                  <input id="radio-8-1" type="radio" name="radio" value="XL">
+                  <label for="radio-8-1">
+                    <p>XL</p>
+                  </label>
                 </div>
               </div>
               <button>В корзину</button>
@@ -228,93 +273,288 @@
               </div>
               <div class="sizes">
                 <div class="form_radio_btn">
-                  <input id="radio-9-1" type="radio" name="radio" value="9">
-                  <label for="radio-9-1"><p>S</p></label>
+                  <input id="radio-9-1" type="radio" name="radio" value="S">
+                  <label for="radio-9-1">
+                    <p>S</p>
+                  </label>
                 </div>
-          
+
                 <div class="form_radio_btn">
-                  <input id="radio-10-1" type="radio" name="radio" value="10">
-                  <label for="radio-10-1"><p>M</p></label>
+                  <input id="radio-10-1" type="radio" name="radio" value="M">
+                  <label for="radio-10-1">
+                    <p>M</p>
+                  </label>
                 </div>
-          
+
                 <div class="form_radio_btn">
-                  <input id="radio-11-1" type="radio" name="radio" value="11">
-                  <label for="radio-11-1"><p>L</p></label>
+                  <input id="radio-11-1" type="radio" name="radio" value="L">
+                  <label for="radio-11-1">
+                    <p>L</p>
+                  </label>
                 </div>
-          
+
                 <div class="form_radio_btn">
-                  <input id="radio-12-1" type="radio" name="radio" value="12">
-                  <label for="radio-12-1"><p>XL</p></label>
+                  <input id="radio-12-1" type="radio"   value="XL">
+                  <label for="radio-12-1">
+                    <p>XL</p>
+                  </label>
                 </div>
               </div>
               <button>В корзину</button>
             </div>
           </div>
         </div>
-    </div>
-
-    <div id="hats" class="products-section">
-      <h2 class="catalog-h2">Головные уборы</h2>
-      <div class="product-cards">
-        <div class="product-card">
-          <img src="images/catalog/jdumas shelby.png" alt="">
-          <div class="card-info">
-            <div class="name-and-price">
-              <p>Кепка Ждумас Шелби</p>
-              <p class="price">999 Р</p>
-            </div>
-            <p class="onesize">One size</p>
-            <button>В корзину</button>
-          </div>
-        </div>
-        <div class="product-card">
-          <img src="images/catalog/panama.png" alt="">
-          <div class="card-info">
-            <div class="name-and-price">
-              <p>Панама Ждун</p>
-              <p class="price">999 Р</p>
-            </div>
-            <p class="onesize">One size</p>
-            <button>В корзину</button>
-          </div>
-        </div>
-        <div class="product-card">
-          <img src="images/catalog/bandana.png" alt="">
-          <div class="card-info">
-            <div class="name-and-price">
-              <p>Бандана Ждун</p>
-              <p class="price">999 Р</p>
-            </div>
-            <p class="onesize">One size</p>
-            <button>В корзину</button>
-          </div>
       </div>
-  </div>
 
+      <div id="hats" class="products-section">
+        <h2 class="catalog-h2">Головные уборы</h2>
+        <div class="product-cards">
+          <div class="product-card">
+            <img src="images/catalog/jdumas shelby.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Кепка Ждумас Шелби</p>
+                <p class="price">999 Р</p>
+              </div>
+              <p class="onesize">One size</p>
+              <button>В корзину</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="images/catalog/panama.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Панама Ждун</p>
+                <p class="price">999 Р</p>
+              </div>
+              <p class="onesize">One size</p>
+              <button>В корзину</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="images/catalog/bandana.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Бандана Ждун</p>
+                <p class="price">999 Р</p>
+              </div>
+              <p class="onesize">One size</p>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="bags" class="products-section">
+        <h2 class="catalog-h2">Сумки и рюкзаки</h2>
+        <div class="product-cards">
+          <div class="product-card">
+            <img src="images/catalog/shopper.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Шоппер Ждун</p>
+                <p class="price">1 999 Р</p>
+              </div>
+              <p class="onesize">One size</p>
+              <button>В корзину</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="images/catalog/waist bag.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Поясная сумка Ждун</p>
+                <p class="price">1 999 Р</p>
+              </div>
+              <p class="onesize">One size</p>
+              <button>В корзину</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="to-the-right" src="images/catalog/secret-bag.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Секретная сумка</p>
+                <p class="price">3 999 Р</p>
+              </div>
+              <p class="onesize">One size</p>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="socks" class="products-section">
+        <h2 class="catalog-h2">Носки</h2>
+        <div class="product-cards">
+          <div class="product-card">
+            <img src="images/catalog/white socks.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Худи Ждун white</p>
+                <p class="price">5 999 Р</p>
+              </div>
+              <div class="sizes">
+                <div class="form_radio_btn_socks">
+                  <input id="radio-1-2" type="radio" name="radio" value="36-39">
+                  <label for="radio-1-2">
+                    <p>36-39</p>
+                  </label>
+                </div>
+
+                <div class="form_radio_btn_socks">
+                  <input id="radio-2-2" type="radio" name="radio" value="40-42">
+                  <label for="radio-2-2">
+                    <p>40-42</p>
+                  </label>
+                </div>
+              </div>
+              <button>В корзину</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="images/catalog/black and white socks.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Худи Куракака</p>
+                <p class="price">5 999 Р</p>
+              </div>
+              <div class="sizes">
+                <div class="form_radio_btn_socks">
+                  <input id="radio-3-2" type="radio" name="radio" value="36-39">
+                  <label for="radio-3-2">
+                    <p>36-39</p>
+                  </label>
+                </div>
+
+                <div class="form_radio_btn_socks">
+                  <input id="radio-4-2" type="radio" name="radio" value="40-42">
+                  <label for="radio-4-2">
+                    <p>40-42</p>
+                  </label>
+                </div>
+              </div>
+              <button>В корзину</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="images/catalog/black socks.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Худи Ждун black</p>
+                <p class="price">5 999 Р</p>
+              </div>
+              <div class="sizes">
+                <div class="form_radio_btn_socks">
+                  <input id="radio-5-2" type="radio" name="radio" value="36-39">
+                  <label for="radio-5-2">
+                    <p>36-39</p>
+                  </label>
+                </div>
+
+                <div class="form_radio_btn_socks">
+                  <input id="radio-6-2" type="radio" name="radio" value="40-42">
+                  <label for="radio-6-2">
+                    <p>40-42</p>
+                  </label>
+                </div>
+              </div>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="limited" class="products-section">
+        <h2 class="catalog-h2">Лимитированное</h2>
+        <div class="product-cards">
+          <div class="product-card">
+            <img src="images/catalog/chainsaw.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Ждунзопила</p>
+                <p class="price">99 999 Р</p>
+              </div>
+              <p class="onesize">One size</p>
+              <button>В корзину</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="images/catalog/panties.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Стринги Ждуняша</p>
+                <p class="price">2 999 Р</p>
+              </div>
+              <div class="sizes">
+                <div class="form_radio_btn">
+                  <input id="radio-stringi-0" type="radio" name="radio" value="S">
+                  <label for="radio-stringi-0">
+                    <p>S</p>
+                  </label>
+                </div>
+
+                <div class="form_radio_btn">
+                  <input id="radio-stringi-1" type="radio" name="radio" value="M">
+                  <label for="radio-stringi-1">
+                    <p>M</p>
+                  </label>
+                </div>
+
+                <div class="form_radio_btn">
+                  <input id="radio-stringi-2" type="radio" name="radio" value="L">
+                  <label for="radio-stringi-2">
+                    <p>L</p>
+                  </label>
+                </div>
+
+                <div class="form_radio_btn">
+                  <input id="radio-stringi-3" type="radio"   value="XL">
+                  <label for="radio-stringi-3">
+                    <p>XL</p>
+                  </label>
+                </div>
+              </div>
+              <button>В корзину</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img class="to-the-right-1" src="images/catalog/something.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Что-то</p>
+                <p class="price">4 999 Р</p>
+              </div>
+              <p class="onesize">One size</p>
+              <button>В корзину</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
   <footer>
     <div class="footer-content">
-        <nav class="general-navigation">
-          <a href="index.html#cover" class="">Главная</a>
-          <a href="index.html#about-us" class="p-l">О нас</a>
-          <a href="index.html#delivery-and-payment" class="p-l">Доставка</a>
-          <a href="index.html#contacts" class="p-l">Контакты</a>
-          <a href="catalog.html" class="p-l">Каталог</a>
+      <nav class="general-navigation">
+        <a href="index.html#cover" class="">Главная</a>
+        <a href="index.html#about-us" class="p-l">О нас</a>
+        <a href="index.html#delivery-and-payment" class="p-l">Доставка</a>
+        <a href="index.html#contacts" class="p-l">Контакты</a>
+        <a href="catalog.html" class="p-l">Каталог</a>
       </nav>
       <div id="footer-imgs">
         <ul id="footer-social-media-icons">
           <li><a href="https://t.me/k1llkashpp"><img src="images/tg-icon.png" alt="" class="social-media-icon"></a></li>
-          <li><a href="https://vk.com/dzharakhov"><img src="images/vk icon.png" alt="" class="social-media-icon"></a></li>
-          <li><a href="https://www.youtube.com/@IvanZolo2077"><img src="images/ig-icon.png" alt="" class="social-media-icon"></a></li>
-               </ul>
+          <li><a href="https://vk.com/dzharakhov"><img src="images/vk icon.png" alt="" class="social-media-icon"></a>
+          </li>
+          <li><a href="https://www.youtube.com/@IvanZolo2077"><img src="images/ig-icon.png" alt=""
+                class="social-media-icon"></a></li>
+        </ul>
         <img id="footer-logo" src="images/bottom-logo.png" alt="">
         <ul id="footer-maps-icons">
           <li><img src="images/go-icon.png" alt="" class="maps-icon"></li>
           <li><img src="images/ya-icon.png" alt="" class="maps-icon"></li>
-              </ul>
+        </ul>
       </div>
     </div>
   </footer>
 </body>
+
 </html>

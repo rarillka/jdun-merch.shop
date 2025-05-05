@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="images/bottom-logo.png">
+    <script src="script.js" defer></script>
     <title>Регистрация</title>
 </head>
 <body>
@@ -27,10 +28,14 @@
                             <p> (Например <u>Jdun2017@mail.ru</u>)</p>
                         </div>
                         <div id="reg-psswrd" >
-                            <input type="text" placeholder="Пароль">
-                            <input type="text" placeholder="Повторите пароль">
+                            <input type="password" placeholder="Пароль" id="passwordinput">
+                            <input type="password" placeholder="Повторите пароль" id="passwordinput1">
                         </div>
                     </form>
+                    <div id="reg-toggle" class="toggle-password">
+                        <input type="checkbox" id="toggle-password-text"onclick="showPasswordS()">
+                        <label for="toggle-password-text">Показать пароль</label>
+                    </div>
                     <div id="reg-desc">
                         <p>Пароль должен соответсвовать следующим правилам:</p>
                         <div id="psswrd-rules">
