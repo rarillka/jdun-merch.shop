@@ -799,7 +799,6 @@ input:not([value='']), textarea:not([value='']){
 
 .toggle-password{
     display: flex;
-    margin-top: -10px;
     margin-bottom: 10px;
 }
 .toggle-password input{
