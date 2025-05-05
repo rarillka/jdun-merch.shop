@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">   
     <link rel="icon" href="images/bottom-logo.png">
+    <script src="script.js" defer></script>
     <title>Вход</title>
 </head>
 <body>
-    
     <main>
         <section class="form" id="login">
             <div class="form-content forms-container">
@@ -17,8 +17,9 @@
                     <h6>Авторизация</h6>
                     <form action="">
                         <input type="text" class="m-b"placeholder="Логин">
-                        <input type="text" class="m-b-1"placeholder="Пароль">
+                        <input type="password" class="m-b-1"placeholder="Пароль" id="passwordinput">  
                     </form>
+                    <input type="checkbox" onclick="showPassword()"> 
                     <div id="login-desc">
                         <p><span id="lighter-login-desc">Нет аккаунта? </span><a href="registry.html">Регистрация</a></p>
                         <a href="" class="n-l">Восстановить пароль</a>
