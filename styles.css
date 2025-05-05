@@ -214,6 +214,7 @@ button:hover{
 .bstslr-overlay:hover{
     opacity: 1;
     -webkit-backdrop-filter: brightness(0.55);
+    backdrop-filter: brightness(0.55);
     transition: 0.4s;
     transform: scale(1.02);
 }
