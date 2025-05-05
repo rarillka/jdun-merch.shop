@@ -9,17 +9,41 @@
 </head>
 <body>
     <main>
-        <section class="form">
+        <section class="form" id="registry">
             <div class="form-content forms-container">
                 <div class="forms-inner">
                     <h6>Регистрация</h6>
                     <form action="">
-                        <input type="text" class="m-b"placeholder="Логин">
-                        <input type="text" class="m-b-1"placeholder="Пароль">
+                        <div class="reg-input">
+                            <input type="text" class="m-b"placeholder="Логин">
+                            <p>(Например <u>JdunJdun89</u>)</p>
+                        </div>
+                        <div class="reg-input">
+                            <input type="text" class="m-b"placeholder="Имя">
+                            <p>(Например <u>Ждун</u>)</p>
+                        </div>
+                        <div class="reg-input">
+                            <input type="text" class="m-b"placeholder="Адрес электронной почты">
+                            <p> (Например <u>Jdun2017@mail.ru</u>)</p>
+                        </div>
+                        <div id="reg-psswrd" >
+                            <input type="text" placeholder="Пароль">
+                            <input type="text" placeholder="Повторите пароль">
+                        </div>
                     </form>
-                    <div id="login-desc">
-                        <p><span id="lighter-login-desc">Нет аккаунта? </span><a href="registry.html">Регистрация</a></p>
-                        <a href="" class="n-l">Восстановить пароль</a>
+                    <div id="reg-desc">
+                        <p>Пароль должен соответсвовать следующим правилам:</p>
+                        <div id="psswrd-rules">
+                            <ul>
+                                <li>Не менее 8 символов</li>
+                                <li>Прописные<br> 
+                                    и строчные буквы</li>
+                            </ul>
+                            <ul>
+                                <li>Цифры</li>
+                                <li>Специальные символы<br>. , ! ? * # % & </li>
+                            </ul>
+                        </div>
                     </div>
                     <a href="index.html"><button>Зарегистрироваться</button></a>
                 </div>
