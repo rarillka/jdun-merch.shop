@@ -47,6 +47,7 @@ header{
     padding-right: 164px;
     margin: 0 auto;
     position: fixed;
+    top: 0;
     height: 111px;
 }
 a{
@@ -604,4 +605,115 @@ input:not([value='']), textarea:not([value='']){
     font-size: 14px;
     color: rgba(255, 255, 255, 0.71);
     padding-bottom: 7px;
+}
+
+
+#catalog-cover{
+    display: flex;
+    padding-left: 164px;
+}
+
+#catalog-nav{
+    display: flex;
+    font-size: 36px;
+    height: 50px;
+    margin-top: 330px;
+    margin-left: 70px;
+}
+
+#catalog-nav p{
+    margin-top: 1px;
+}
+#catalog-nav a{
+    text-decoration: none;
+}
+
+.catalog-h2{
+    font-family: "Lobster";
+}
+
+.catalog-cards-container{
+    width: 1546px;
+    padding-left: 185px;
+}
+
+
+
+
+
+.form_radio_btn {
+	display: inline-block;
+	margin-right: 10px;
+    background: #212224;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    border-radius: 2px;
+    border: 1px solid #ffffff;
+}
+.form_radio_btn input[type=radio] {
+	display: none;
+}
+.form_radio_btn label {
+	display: inline-block;
+	cursor: pointer;
+    width: 50px;
+    height: 50px;
+	user-select: none;
+}
+.form_radio_btn p{
+    position: relative;
+    margin: 0;
+    top: 7px;
+    text-align: center;
+}
+/* Checked */
+.form_radio_btn input[type=radio]:checked + label {
+	background: #ffffff;
+    color: #000000;
+    transition: 0.4s;
+}
+ 
+.form_radio_btn input[type=radio]:hover + label {
+	background: #393A3D;
+    color: #FFF;
+    transition: 0.4s;
+}
+/* Hover */
+.form_radio_btn label:hover {
+	color: #ffffff;
+}
+ 
+
+.product-card{
+    width: 455px;
+    height: 675px;
+    background-color: #212224;
+}
+
+.card-info{
+    background-color: #383A3E;
+    height: 218px;
+    padding-left: 20px;
+    width: 415px;
+    padding-right: 20px;
+}
+
+
+.card-info button{
+    width: 314px;
+    height: 47px;
+    font-size: 32px;
+}
+
+.name-and-price{
+    display: flex;
+    justify-content: space-between;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.price{
+    font-size: 32px;
+    position: relative;
+    bottom: 7px;
 }

@@ -8,35 +8,88 @@
     <title>Каталог</title>
 </head>
 <body>
-  <header class="container">
-    <img id="logo" src="images/top-logo.png" alt="логотип">
-    <nav class="general-navigation">
-        <a href="index.html#cover" class="">Главная</a>
-        <a href="index.html#about-us" class="p-l">О нас</a>
-        <a href="index.html#delivery-and-payment" class="p-l">Доставка</a>
-        <a href="index.html#contacts" class="p-l">Контакты</a>
-        <a href="catalog.html" class="p-l">Каталог</a>
-    </nav>
-    <a href="">
-        <div id="shopping-cart"  class="imageBox">
+      <header class="container">
+        <img id="logo" src="images/top-logo.png" alt="логотип">
+        <nav class="general-navigation">
+            <a href="index.html#cover" class="">Главная</a>
+            <a href="index.html#about-us" class="p-l">О нас</a>
+            <a href="index.html#delivery-and-payment" class="p-l">Доставка</a>
+            <a href="index.html#contacts" class="p-l">Контакты</a>
+            <a href="catalog.html" class="p-l">Каталог</a>
+        </nav>
+        <a href="">
+            <div id="shopping-cart"  class="imageBox">
+                <div class="imageInn">
+                  <img src="images/shopping-cart-icon.svg"  alt="корзина">
+                </div>
+                <div class="hoverImg">
+                  <img src="images/shopping-cart-icon-hover.svg" alt="корзина">
+                </div>
+              </div></a>
+        <a href="logIn.html"> <div id="profile-pic" class="imageBox">
             <div class="imageInn">
-              <img src="images/shopping-cart-icon.svg"  alt="корзина">
+              <img src="images/profile-icon.svg"  alt="профиль">
             </div>
             <div class="hoverImg">
-              <img src="images/shopping-cart-icon-hover.svg" alt="корзина">
+              <img src="images/profile-icon-hover.svg" alt="профиль">
             </div>
           </div></a>
-    <a href="logIn.html"> <div id="profile-pic" class="imageBox">
-        <div class="imageInn">
-          <img src="images/profile-icon.svg"  alt="профиль">
-        </div>
-        <div class="hoverImg">
-          <img src="images/profile-icon-hover.svg" alt="профиль">
-        </div>
-      </div></a>
-  </header>
+    </header>
   <main>
-
+    <section id="catalog-top">
+      <div id="catalog-cover" class="container">
+        <h1>Каталог</h1>
+        <nav id="catalog-nav">
+          <a href="">Футболки</a>
+          <p>&nbsp;/&nbsp;</p>
+          <a href="">Худи</a>
+          <p>&nbsp;/&nbsp;</p>
+          <a href="">Головные уборы</a>
+          <p>&nbsp;/&nbsp;</p>
+          <a href="">Сумки и рюкзаки</a>
+          <p>&nbsp;/&nbsp;</p>
+          <a href="">Носки</a>
+          <p>&nbsp;/&nbsp;</p>
+          <a href="">Лимитированное</a>
+        </nav>
+      </div>
+    </section>
+    <section id="all-products" class="catalog-cards-container">
+      <div id="t-shirts">
+          <h2 class="catalog-h2">Футболки</h2>
+          <div class="product-card">
+            <img src="images/catalog/tshirt white.png" alt="">
+            <div class="card-info">
+              <div class="name-and-price">
+                <p>Футболка Ждун white</p>
+                <p class="price">1 999 Р</p>
+              </div>
+              <div class="sizes">
+                <div class="form_radio_btn">
+                  <input id="radio-1" type="radio" name="radio" value="1">
+                  <label for="radio-1"><p>S</p></label>
+                </div>
+                
+                <div class="form_radio_btn">
+                  <input id="radio-2" type="radio" name="radio" value="2">
+                  <label for="radio-2"><p>M</p></label>
+                </div>
+                
+                <div class="form_radio_btn">
+                  <input id="radio-3" type="radio" name="radio" value="3">
+                  <label for="radio-3"><p>L</p></label>
+                </div>
+                
+                <div class="form_radio_btn">
+                  <input id="radio-4" type="radio" name="radio" value="4">
+                  <label for="radio-4"><p>XL</p></label>
+                </div>
+                <button>В корзину</button>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
   </main>
   <footer>
     <div class="footer-content">
