@@ -635,7 +635,7 @@ input:not([value='']), textarea:not([value='']){
 
 .catalog-cards-container{
     width: 1546px;
-    padding-left: 185px;
+    padding-left: 251px;
 }
 
 
@@ -674,21 +674,22 @@ input:not([value='']), textarea:not([value='']){
     transition: 0.4s;
 }
  
-.form_radio_btn input[type=radio]:hover + label {
+/*.form_radio_btn input[type=radio]:hover + label {
 	background: #393A3D;
     color: #FFF;
     transition: 0.4s;
-}
-/* Hover */
-.form_radio_btn label:hover {
-	color: #ffffff;
-}
+}*/
+
  
 
 .product-card{
     width: 455px;
     height: 675px;
     background-color: #212224;
+}
+.product-card img{
+    height: 461px;
+    filter: drop-shadow(4px 4px 10px rgba(255, 255, 255, 0.41));
 }
 
 .card-info{
@@ -698,6 +699,7 @@ input:not([value='']), textarea:not([value='']){
     width: 415px;
     padding-right: 20px;
 }
+
 
 
 .card-info button{
@@ -711,10 +713,43 @@ input:not([value='']), textarea:not([value='']){
     justify-content: space-between;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
+    margin: 0;
 }
-
+.name-and-price p{
+    margin-top: 17px;
+    margin-bottom: 0;
+}
+.sizes{
+    margin: 10px 0 15px 0;
+}
 .price{
     font-size: 32px;
     position: relative;
-    bottom: 7px;
+    bottom: 4px;
+}
+
+
+#catalog-top{
+    position: relative;
+    bottom: 70px;
+
+}
+
+.catalog-h2{
+    margin-bottom: 30px;
+}
+
+.product-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.products-section{
+    margin-bottom: 120px;
+}
+
+.onesize{
+    font-size: 32px;
+    margin: 5px 0 35px 0;
 }
